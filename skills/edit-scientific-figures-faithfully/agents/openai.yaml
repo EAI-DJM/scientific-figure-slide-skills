@@ -1,0 +1,13 @@
+interface:
+  display_name: 科研图件定向编辑
+  short_description: 针对选中原图执行去字去框等局部修改，并逐项检查布局和科学含义
+  default_prompt: 请使用 $edit-scientific-figures-faithfully，移除选中图的文字与背景框，保留其他内容。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

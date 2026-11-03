@@ -1,0 +1,13 @@
+interface:
+  display_name: 论文方法图设计
+  short_description: 依据论文证据组织技术路线与研究思路，生成可核对的绘图提示词或成图
+  default_prompt: 请使用 $design-paper-method-figures，根据附件论文第三章设计方法总览图，先给出提示词。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

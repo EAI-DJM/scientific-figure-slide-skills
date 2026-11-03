@@ -1,0 +1,13 @@
+interface:
+  display_name: 论文原始素材驱动的PPT
+  short_description: 提取并复用论文原图公式，重制数据表，按模板组织汇报并核查证据
+  default_prompt: 请使用 $build-source-faithful-paper-slides，根据论文与模板制作五页中文内容PPT，优先使用原图。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true

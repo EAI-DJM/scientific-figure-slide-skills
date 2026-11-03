@@ -1,0 +1,13 @@
+interface:
+  display_name: 图件文字与公式提取
+  short_description: 按原图模块完整提取文字和重复标签，将公式变量转为可复制的LaTeX
+  default_prompt: 请使用 $extract-figure-labels-latex，按模块提取图中全部文字，公式和变量附LaTeX源码。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
